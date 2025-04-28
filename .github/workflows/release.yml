@@ -43,7 +43,7 @@ jobs:
       id-token: write
     environment:
       name: pypi
-      url: https://pypi.org/project/template-mcp-server/${{ github.ref_name }}
+      url: https://pypi.org/project/openweather-mcp/${{ github.ref_name }}
     runs-on: ubuntu-latest
     needs: build-package
 
